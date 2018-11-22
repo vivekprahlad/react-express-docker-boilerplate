@@ -21,7 +21,7 @@ module.exports = {
     path: path.join(__dirname, 'dist')
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?$/,
         loaders: 'babel-loader',
